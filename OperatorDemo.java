@@ -24,7 +24,7 @@ public class OperatorDemo {
 
         System.out.println(bu);
 
-        System.out.println(" ****************Section 2***************");
+        System.out.println(" ****************Case2***************");
 
         boolean x = true;
         boolean y = false;
@@ -35,6 +35,15 @@ public class OperatorDemo {
         System.out.println(x || y); //true
         System.out.println(!x); // false
         System.out.println(!y); //true
+
+        System.out.println(" ****************Case3***************");
+
+        int s = 10;
+         s = s++; //a+1 = a++
+
+        System.out.println(s);
+
+        System.out.println(" ****************Case4***************");
 
     }
 
