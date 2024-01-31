@@ -5,15 +5,34 @@ public class ConditionalStatment{
 
        if (a >= 10){
 
-        System.out.println("Subject  is not a teen or adult");
+        System.out.println("Example number 1:- Subject  is not a teen or adult");
         }
 
         if (b >= 12 || b <= 18){
-            System.out.println("The subject is an teen ager");
+            System.out.println("Example number 2:- The subject is an teen ager");
         }
         else{
-            System.out.println("The subject is eather child or adult");
+            System.out.println("Example number 2:- The subject is eather child or adult");
         }
 
+        int num = 10;
+
+        if(num%2 == 0){
+
+            System.out.println("Example number 3:- The number is an even number");
+        }
+        else{
+         System.out.println("Example number 3:- The number is an odd number");
+        }
+
+        if(true){
+            System.out.println("This is an example of only true value" + (1));
+        }
+        else{
+            System.out.println("This is an example of only true value" + (2));
+        }
+
+    
+    
     }
 }
